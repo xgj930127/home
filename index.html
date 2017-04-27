@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My home page</title>
+<link rel="stylesheet" href="css/base.css"/>
+<link rel="stylesheet" href="css/index.css"/>
+<script src="js/move.js"></script>
+<script src="js/product.js"></script>
+<script src="js/sea.js"></script>
+<script src="js/tab.js"></script>
+<script src="js/tween.js"></script>
+<script>
+window.onload=function(){
+	tab();	
+	show();
+	
+}
+</script>
+</head>
+
+<body>
+<div id="body_bg"></div>
+<div id="Container">
+	<!--首页开始-->
+	<div class="main">
+        <!--导航开始-->
+        <div class="top">
+            <div class="nav_opa"></div>
+            <div class="nav">
+                <ul class="clearfix" id="nav-p">
+                    <li class="fl">
+                        <a href="javascript:;">首页</a>
+                        <span></span>
+                    </li>
+                    <li class="fl">
+                        <a href="javascript:;">作品栏</a>
+                        <span></span>
+                    </li>
+                    <li class="fl">
+                        <a href="javascript:;">HTML/CSS</a>
+                        <span></span>
+                    </li>
+                    <li class="fl">
+                        <a href="javascript:;">Java&nbsp;Script</a>
+                        <span></span>
+                    </li>
+                    <li class="fl">
+                        <a href="javascript:;">个人简介</a>
+                        <span></span>
+                    </li>
+                    <li class="fl">
+                        <a href="javascript:;">联系我</a>
+                    </li>
+                    <li id="nav"></li>
+                </ul>
+                <h1 class="logo" id="logo">生活，在于求知</h1>
+                
+            </div>
+        </div>
+        <!--导航结束-->
+        <!--Banner开始-->
+        <div class="box">
+            <ol id="ol1">
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+            </ol>
+            <div class="show_box">
+                <ul id="ul1">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/pic01.jpg" alt="宇宙1"/>	
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/pic02.jpg" alt="宇宙2"/>	
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/pic03.jpg" alt="宇宙3"/>	
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/pic04.jpg" alt="宇宙4"/>	
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="img/pic05.jpg" alt="宇宙5"/>	
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Banner结束-->
+    </div>
+    <!--首页结束-->
+    <!--作品集开始-->
+    <div class="main">
+    	<div class="products">
+        	<h2>作品栏<br/><span>production</span></h2>
+            <div id="products_con" class="products_con">
+                <ul>
+                    <li>
+                        <a href="http://www.bzr99.com/" class="a1" target="_blank">
+                            <span><i>豹子融贷款</i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://my.b2b.makepolo.com/cpc/spread/index.php" class="a2" target="_blank">
+                            <span><i>订单直通车后台</i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://china.makepolo.com/" class="a3" target="_blank">
+                            <span><i>马可波罗官网</i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="a4" target="_blank">
+                            <span><i>h5图片批量上传</i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://mobile.zol.com.cn/" class="a5" target="_blank">
+                            <span><i>中关村在线手机频道页</i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://m.zol.com.cn/mobile/?via=index" class="a6" target="_blank">
+                            <span><i>zol手机wap商城页</i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="btn" class="btn">换位置</div>
+        </div>
+    </div>
+    <!--作品集结束-->
+ 	<!--HTML开始-->
+    <div class="main">
+        <div class="colone">
+            <div class="html_list" id="html_list">
+                <h3 class="link">HTML/CSS</h3>
+                <p class="list">
+                    精通HTML、CSS、CSS3，熟悉页面架构和布局，对Web标准和标签语义化有深入理解，熟练HTML5与CSS3
+                    </br>城市
+                    熟练运用Photoshop，Sublime，Firebug等常用网页设计制作软件	
+                    </br>			
+                    能够解决不同主流浏览器的兼容性问题
+                    <br/>
+                    2年移动端开发经验，熟悉运用Html5,css3,js实现手机端的交互
+                    <br/>               
+                    熟悉git,svn等版本控制工具，webpack等模块化工具
+                </p>
+            </div>
+            <p class="html_img" id="html_img">
+                <img src="img/H5.png" alt="H5"/>
+            </p>
+        </div>
+    </div>
+    <!--HTML结束-->
+    <!--javascript开始-->
+    <div class="main">
+    	<div class="colone" id="js">
+        	<p class="js_img" id="js_img">
+            	<img src="img/js_img.png" alt="dw"/>
+            </p>
+            <div class="js_list" id="js_list">
+            	<h3 class="link">Javascript</h3>
+                <p class="list">
+                	熟悉JavaScript语言，熟练jQuery框架，正则匹配，Ajax实现网页特效和用户交互体验
+                    <br/>
+                    了解oop、nodejs等思想与JS框架
+                    <br/>
+                    能使用react,angular,vue等前端流行mvc框架，并有对应的开发经验
+                    <br/>
+                    能使用原生js实现网页各种功能与效果不依赖插件
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--javascript结束-->
+    <!--个人简介开始-->
+    <div class="main">
+    	<div class="colone">
+        	<div class="person_list" id="person_lsit">
+            	<h3 class="link">个人简介</h3>
+                <p class="list">
+                	2011/09~2014/06
+                    <br/>
+                    学校：荆楚理工大学
+                    <br/>
+                    专业：计算机应用技术
+                    <br/>
+                    2015/08~2016/05
+                    <br/>
+                    北京中关村在线
+                    <br/>
+                    2016/05~至今
+                    <br/>
+                    北京马可波罗网
+                </p>
+            </div>
+            <p class="person_img" id="person_img">
+            	<img src="img/sp_bg.png" alt="水瓶座"/>
+            </p>
+        </div>
+    </div>
+    <!--个人简介结束-->
+    <!--联系开始-->
+    <div class="main">
+    	<div class="colone clearfix">
+        	<div class="contact fl">
+            	<h2 class="link">联系我：</h2>
+                <p class="list">
+                	不要轻易说不可能。互联网一直在技术与需求中进步，所有企业都需要借助或者学习互联网，因为互联网在影响每一个人的思维、消费习惯、时间分配等。我时刻的准备着学习，用欣赏和怀疑的眼光学习每一个未知事物，2年多的互联网工作经历，培养了我良好的技术及设计水平，我相信在不同的岗位上我都愿竭力发光发热。
+                </p>
+            </div>
+            <div class="fl number">
+            	<h2 class="link">个人信息/Personal Information</h2>
+                <p class="list">姓名：向功瑾</p>
+                <p class="list">手机：13240920938</p>
+                <p class="list">Q Q：1185210565</p>
+                <p class="list">感谢访问本网站，您的到来让我感到很荣幸！</p>
+                <ul class="clearfix icon">
+                	<li class="fl">
+                    	<a href="https://wx.qq.com/" class="wx"></a>
+                    </li>
+                    <li class="fl">
+                    	<a href="javascript:;" class="wb"></a>
+                    </li>
+                    <li class="fl">
+                    	<a href="tencent://Message/?Uin=1185210565&websiteName=q-zone.qq.com&Menu=yes" class="qq"></a>
+                    </li>
+                    <li class="fl">
+                    	<a href="javascript:;" class="bk"></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="Message" class="Message">
+            	给我留言
+                <ul></ul>
+            </div>
+        </div>
+    </div>
+    <!--联系结束-->
+    <!--侧边导航开始-->
+    <div class="fixed" id="fixed">
+    	<a href="javascript:;">One</a>
+        <a href="javascript:;">Two</a>
+        <a href="javascript:;">Three</a>
+        <a href="javascript:;">Four</a>
+        <a href="javascript:;">Five</a>
+        <a href="javascript:;">Six</a>
+    </div>
+    <!--侧边导航结束-->
+</div>
+
+</body>
+</html>

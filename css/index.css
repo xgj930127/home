@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font-family:'微软雅黑';}
+#body_bg{position:fixed;top:0;left:0; width:100%; height:100%; z-index:-1;background:url(../images/body_bg0.jpg) #000 center 0 no-repeat; background-size:100%;}
+#body_bg span{ position:absolute;overflow:hidden;z-index:2}
+#body_bg i{ position:absolute;background:url(../images/body_bg0.jpg) no-repeat; left:0;top:0;}
+#Container{width:100%; height:100%;margin:0 auto; position:relative;overflow:hidden;}
+.main{width:100%;height:auto; margin-bottom:50px;box-shadow:0px 0px 20px #fff;overflow:hidden;}
+.top{width:100%; height:78px;position:relative; top:0; left:0; padding-top:20px;}
+.nav_opa{ width:100%; height:100%; background:#000;opacity:0.1;filter:alpha(opacity:10); position:absolute; left:0; top:0;}
+.nav{ width:710px; height:78px; background:url(../images/nav_bg.png) no-repeat center; margin:0 auto; padding-left:25px; position:relative; z-index:2;}
+.logo{position:relative;font-size:30px;font-weight:bold; line-height:50px;height:50px;left:-300px;top:-60px;background:-webkit-linear-gradient(-30deg,rgba(245,20,20,0) 100px,rgba(251,241,44,1) 180px,rgba(251,241,44,1) 240px,rgba(245,20,0,0) 300px) -300px 0 no-repeat; -webkit-background-clip:text;color:rgba(255,255,255,0.2); text-shadow:0px 0px 80px  #fff;}
+.nav ul{ position:relative;}
+.nav ul li{ width:80px; text-align:center; padding:0 18px; position:relative;}
+.nav ul li a{color:#fff; text-shadow:1px 1px 2px #000;font-size:16px; position:relative; z-index:2; display:block; height:78px; line-height:60px; }
+.nav span{ height:20px; width:2px; background:#fff; position:absolute; right:0; top:40%; margin-top:-10px;}
+.nav ul li a:hover{ color:#63B1FF;transition:all 0.5s ease;}
+#nav{ position:absolute; padding:0;width:98px; height:78px; background:url(../images/navA_hover.png) no-repeat; left:0; top:-2px;margin-left:12px;}
+.box{ background:url(../images/show_box_bg.png) no-repeat center; width:840px; height:305px; margin:88px auto 0 auto; padding:32px 87px 48px 84px; overflow:hidden; box-shadow:0px 0px 20px #fff; border-radius:2%; position:relative; margin-bottom:20px;}
+.box .show_box{ width:100%; height:100%; position:relative; overflow:hidden;}
+.box ol{ width:450px;position:absolute; bottom:20px; left:50%; margin-left:-235px;}
+.box ol li{ width:80px; height:16px;float:left; margin-right:10px; box-shadow:0px 0px 20px #06F inset,0px 0px 30px #fff; position:relative;}
+.box ol li span{ position:absolute; left:0; top:0;width:0%; height:100%;box-shadow:0px 0px 60px gold inset,0px 0px 20px #fff;}
+.box ul{ position:absolute; left:0; top:0;}
+.box ul li{ float:left;}
+.box ul li a{ display:block;}
+.products{ width:1120px; height:580px; margin:0 auto; overflow:hidden;}
+.products h2{ text-align:center; font-size:24px; line-height:21px; padding:10px 0; color:#fff;margin-bottom:15px; text-shadow:0px 0px 10px gold;}
+.products h2 span{ font-size:16px; }
+.products_con{width:1020px; height:420px; margin:0 auto; position:relative;}
+.products_con ul{ margin-right:-30px; position:absolute; left:0;top:0;}
+.btn{background: dodgerblue;color:#fff;border-radius: 5px;
+text-shadow: 1px 1px 5px #000;box-shadow: 0 5px 5px #000;cursor: pointer;transition: .2s all ease;margin: 10px; position:relative;top:10px; width:100px; height:40px; text-align:center; line-height:30px; line-height:40px; font-size:16px; left:50%; margin-left:-50px;}
+.btn:hover{box-shadow:0 5px 3px #000, inset 0px 0px 10px #fff;}
+.btn:active{box-shadow:0 2px 3px #000, inset 0px 0px 10px #fff;top:13px;}
+.products_con li{ overflow:hidden; width:320px; height:200px; float:left; margin-right:30px; margin-bottom:20px;border-radius:10px; box-shadow:0px 0px 20px #03F inset;}
+.products_con li a{ display:block; position:relative; width:100%; height:100%; overflow:hidden;background-size:100% 100%;}
+.products_con li span{ position:absolute; width:100%; height:100%; left:-320px; top:0; text-align:center;  background: linear-gradient(#09F,blue,#09C);}
+.products_con i{ padding-top:100px; display:block; color:#fff; font-size:28px; line-height:60px; background:url(../img/link_bg.png) center 66px no-repeat; text-shadow:0px 0px 20px #000;}
+.a1{ background:url(../img/demo1.png) no-repeat;}
+.a2{ background:url(../img/demo2.jpg) no-repeat;}
+.a3{ background:url(../img/demo3.png) no-repeat;}
+.a4{ background:url(../img/demo4.jpg) no-repeat;}
+.a5{ background:url(../img/demo5.png) no-repeat;}
+.a6{ background:url(../img/demo6.jpg) no-repeat;}
+.colone{ height:550px; width:1364px;position:relative; color:#fff; overflow:hidden; margin:0 auto;}
+#v1{ display:none;}
+.html_list{ position:absolute; width:560px; top:77px; left:-1000px;}
+.html_img{ right:40px; position:absolute;top:-1000px;}
+.link{ line-height:80px; font-size:40px; text-shadow:1px 1px 0px gold;}
+.list{ font-size:18px; line-height:36px;text-shadow:0px 0px 50px #0F0;}
+.js_list{ position:absolute; top:120px;width:485px;right:-1000px;}
+.js_img{ position:absolute;left:70px; bottom:-800px;}
+.person_list{ position:absolute; width:560px; top:-1000px; left:180px;}
+.person_img{ position:absolute;right:-1000px;top:80px;}
+.contact{ width:600px; padding:55px 0px 0px 100px;}
+.contact .link{ font-size:30px;}
+.contact .list{ padding-top:20px;text-shadow:0px 0px 50px #0F0;text-indent:2em;}
+.number{ padding:150px 0px 0px 100px;}
+.number .link{ font-size:24px; line-height:50px; margin-bottom:5px;}
+.number .list{ line-height:40px; font-size:17px; text-shadow:0px 0px 50px #0F0;}
+.icon{ width:300px; height:36px; margin-top:10px;}
+.icon li{ width:36px; height:36px; background:#000; border-radius:50%;box-shadow:0px 0px 10px #fff; margin-right:20px;background: radial-gradient(#06C, #3CC); position:relative;top:0px;transition:0.4s all ease;}
+.icon li:hover{ background:#000;box-shadow:0 0 10px #03F;transform:rotateY(360deg);}
+.icon li:active{top:3px;box-shadow:0 0px 100px #fff;}
+.icon a{ display:block; background:url(../images/img_icon.png) no-repeat; width:25px; height:20px; margin:9px 0px 0px 7px;}
+.icon .wx{ background-position:-1px -2px;}
+.icon .wb{ background-position:-29px -2px;}
+.icon .qq{ background-position:-52px -2px;}
+.icon .bk{ background-position:-75px -2px;}
+.fixed{ position:absolute; right:60px; top:100px;z-index:100;box-shadow:0px 0px 50px #fff;opacity:0;filter:alpha(opacity:0);}
+.fixed a{text-align:center; font-weight:bold;line-height:40px; font-size:16px; display:block; color:#fff;
+text-shadow: 1px 1px 5px #000;box-shadow: 0 0 5px #000;background:#09F; transition: .2s all ease;position: relative; top:0;}
+.fixed a:hover{box-shadow: 0 0px 0px #000, inset 0px 0px 10px #fff;}
+.fixed a:active{box-shadow: 0 2px 3px #000, inset 0px 0px 10px #fff;top:3px;}
+.Message{ width:100px; height:100px; border-radius:50%; background:#06F;position:absolute;bottom:0; left:50%; margin-left:-50px; margin-bottom:-50px;box-shadow:0px 0px 10px #fff; cursor:pointer; text-align:center; line-height:60px; font-size:16px;transition:all 0.4s ease;}
+.Message:hover{box-shadow: 0 0px 50px #fff; text-shadow:0 0 10px gold;}
+.music{ width:220px; height:30px;position:absolute; right:-260px;top:20px; background:#171717;}
+.music p{ position:absolute;width:100%; height:100%; line-height:30px; color:#fff;top:-30px; left:0; text-align:center;opacity:0;filter:alpha(opacity:0); font-size:14px; text-shadow:0px 0px 10px #fff;}
+.nav .music li{ width:30px; height:30px;padding:0; border-radius:2px; cursor:pointer;transition:all 0.4s ease;}
+.nav .music li em{ display:block; width:100%; height:100%;}
+.nav .music li.on{background:radial-gradient(#06C, #3CC);box-shadow:0px 0px 10px #fff;}
+.nav .music li:hover{ background:#09C;box-shadow:0px 0px 10px #fff;}
+.music_a1{ background:url(../images/music_a1.png) no-repeat;}
+.music_b1{ background:url(../images/music_b1.png) no-repeat;}
+.music_c1{ background:url(../images/music_c1.png) no-repeat;}
+.music_d1{ background:url(../images/music_d1.png) no-repeat;}
+.music_e1{ background:url(../images/music_e1.png) no-repeat;}
+.nav .music li.sound{ width:50px; height:3px; margin-top:13px; margin-left:4px; position:relative;}
+.nav .music li.sound:hover{box-shadow:0px 0px 0px #fff;}
+.nav .music li.sound i{ position:absolute; height:3px; left:0;top:0;}
+.s_bg{width:100%;background:#535353;}
+.s_link{ width:100%; background:#000; z-index:2;}
+.drag{ width:8px; height:8px; border-radius:50%; position:absolute; right:0;top:50%; background:#fff; z-index:3; margin-top:-4px; cursor:pointer; margin-right:-4px;}
+
+
+
+
+
+
+
+
